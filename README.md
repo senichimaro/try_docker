@@ -8,8 +8,8 @@ Raw initial list and steps to work with Docker in Local and push to remote Repo 
 5. ENTRYPOINT commands to be ran after `docker run [...]`
 
 # - Commands for Local Development
-* `docker build -t try_docker .` : include changes
-* `docker run -dp 5000:5000 try_docker` : run image (match internal config with command target port [port in docker:localhost port])
+* `docker build -t try_docker .` : build the image or include changes
+* `docker run -dp 5000:5000 try_docker` : run image (match internal config with command target port `[port in docker:localhost port]`)
 
 # - Commands for Push to DockerHub Repo
 * `docker login -u YOUR-USER-NAME`
